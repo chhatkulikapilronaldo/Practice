@@ -1,5 +1,17 @@
+//  function add(a){
+//    return  a ** 2
 
-// Named export used in ES6
+// }
+// export default add
+
+// const ab = () => 
+//     console.log('ab is alive!')
+// const cd = () =>
+//     console.log('cd is alive')
+
+// export { ab, cd }
+
+
 export function addFn(a, b) {
     return a + b;
 }
@@ -34,3 +46,7 @@ function calc(operation, a, b) {
     }
 }
 export default calc;
+
+
+
+  
